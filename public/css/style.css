@@ -1,0 +1,28 @@
+.card-title{
+    font-size: 15px;
+    height: 65px;
+    text-align: justify;    
+    overflow-y: auto;
+}
+
+.card-title::-webkit-scrollbar{
+    display: none;
+}
+.source p{
+    font-size: 13px;
+    margin-bottom: -15px;
+}
+
+.card-text{
+    font-size: 14px;
+    text-align: justify;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.card-text::-webkit-scrollbar{
+    display: none;
+}
+.infinite{
+    overflow-x: hidden !important;
+}
